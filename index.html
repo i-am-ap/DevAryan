@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAryan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/img/Aa.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <video loop autoplay muted plays-inline src="assets/video/galaxy.mp4" type="video/mp4" class="back-vid" ></video>
+    </div>
+
+    <section id="header">
+
+        <nav>
+            <ul>
+                <div class="logo">
+                    <h3 id="animated-gradient-text">DevAryan</h3>
+                </div>
+                <div id="link">
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="main">
+        <div id="title">
+            <h1 id="title-heading">
+                <span id="line1"></span><br>
+                <span id="line2"></span><span class="cursor">|</span>
+            </h1>
+            <p>A full Stack developer with proficient in AiMl. </p>
+            <p>Creating innovative solutions that make a difference.</p>
+            <div class="buttons">
+                <button type="submit" id="connectBtn">Let's Connect</button>
+                <button type="submit" id="resume"><i class="fa-solid fa-file"></i> My Resume</button>
+            </div>
+        </div>
+
+        <div id="pic">
+            <div id="pic-wrapper">
+                <img src="assets/img/my_pic.jpg" alt="my_pic" id="my_pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-text">
+            <h2>👋 Hello, I'm Aryan!</h2>
+            <p>Welcome to my portfolio!</p>
+            <p>I’m a developer who thrives on building scalable and innovative digital products.</p>
+        </div>
+        <div class="about-content">
+            <div class="about-container">
+                <h3>👨🏻‍💻 Who am I?</h3>
+                <p>A Full Stack Developer & AI/ML Enthusiast with a B.E. in CSE (Data Science).  </p>
+                <p>I specialize in creating scalable, innovative digital products that make a difference.</p>    
+
+                <h3>🎯 What I Do</h3>
+                <ul>
+                    <li>Build dynamic web apps using MERN stack</li>
+                    <li>Work on AI/ML models with Tensorflow, Keras</li>
+                    <li>Design UI/UX with modern web trends</li>
+                    <li>Develop RESTful APIs with Node.js and Django</li>
+                    <li>Deploy applications on Vercel and Firebase</li>
+                    <li>Continuously learn and adapt to new technologies</li>
+
+                </ul>
+
+                <h3>🌟 My Vision</h3>
+                <p>To create intelligent, scalable, and beautiful digital solutions that solve real-world problems.</p>
+            </div>
+            
+            <div class="about-image">
+                <img src="assets/img/my_pic.jpg" alt="About Me">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skill">
+
+            <div class="frontend" id="cards">
+                <h2>Frontend</h2> 
+                <div class="skill-text">
+                    <p>HTML, CSS, JavaScript, ReactJS, Bootstrap</p>
+                </div>
+                <div class="slider" reverse="true"style="--width: 100px; --height:100px; --quantity:6">
+                    <div class="list">
+                        <div class="item" style="--position:1"><img src="assets/img/html.png"></div>
+                        <div class="item" style="--position:2"><img src="assets/img/css3.png"></div>
+                        <div class="item" style="--position:3"><img src="assets/img/js.png"></div>
+                        <div class="item" style="--position:4"><img src="assets/img/bootstrap.png"></div>
+                        <div class="item" style="--position:5"><img src="assets/img/reactjs.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="backend" id="cards">
+                <h2>Backend</h2>
+                <div class="skill-text">
+                    <p>Python, ExpressJs, NodeJs, Django, Flask</p>
+                </div>
+                <div class="slider" reverse="true"style="--width: 100px; --height:100px; --quantity:5">
+                    <div class="list">
+                        <div class="item" style="--position:1"><img src="assets/img/python.png"></div>
+                        <div class="item" style="--position:2"><img src="assets/img/exp.png"></div>
+                        <div class="item" style="--position:3"><img src="assets/img/nodejs.png"></div>
+                        <div class="item" style="--position:4"><img src="assets/img/django.png"></div>
+                        <div class="item" style="--position:5"><img src="assets/img/flask.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai-ml" id="cards">
+                <h2>AI/ML</h2>
+                <div class="skill-text">
+                    <p>Tensorflow, Keras</p>
+                </div>
+                <div class="slider" reverse="true"style="--width: 100px; --height:100px; --quantity:5">
+                    <div class="list">
+                        <div class="item" style="--position:1"><img src="assets/img/tensorflow.png"></div>
+                        <div class="item" style="--position:2"><img src="assets/img/keras.png"></div>
+                        <!-- <div class="item" style="--position:3"><img src="assets/img/mongodb.png"></div>
+                        <div class="item" style="--position:4"><img src="assets/img/sqlite.png"></div>
+                        <div class="item" style="--position:5"><img src="assets/img/flask.png"></div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="devops" id="cards">
+                <i></i>
+                <h2>DevOps</h2>
+            </div> -->
+            <div class="database" id="cards">
+                <h2>Database</h2>
+                <div class="skill-text">
+                    <p>MySQL, PostgreSQL, MongoDB, SQLite, </p>
+                </div>
+                <div class="slider" reverse="true"style="--width: 100px; --height:100px; --quantity:5">
+                    <div class="list">
+                        <div class="item" style="--position:1"><img src="assets/img/mysql.png"></div>
+                        <div class="item" style="--position:2"><img src="assets/img/postgresql.png"></div>
+                        <div class="item" style="--position:3"><img src="assets/img/mongodb.png"></div>
+                        <div class="item" style="--position:4"><img src="assets/img/sqlite.png"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="other" id="cards">
+                <i></i>
+                <h2>Other</h2>
+            </div> -->
+                
+
+            <!-- <div class="skill-item">
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-square-js"></i>
+                <h2>JavaScript</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>  
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-react"></i>
+                <h2>React</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="skill-item  ">
+                <i class="fa-brands fa-node-js"></i>
+                <h2>Node.js</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-server"></i>
+                <h2>ExpressJS</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-server"></i>
+                <h2>Django</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-server"></i>
+                <h2>Flask</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-database"></i>
+                <h2>MySQL</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-database"></i>
+                <h2>MongoDB</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-github"></i>
+                <h2>Git</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-robot"></i>
+                <h2>AI/ML</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-docker"></i>
+                <h2>Docker</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-fire"></i>
+                <h2>Firebase</h2>
+                <div class="progress-bar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div> -->
+            </div>
+
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project-item">
+            <h2>Project 1</h2>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project-item">
+            <h2>Project 2</h2>
+            <p>Description of project 2.</p>
+        </div>
+        <div class="project-item">
+            <h2>Project 3</h2>
+            <p>Description of project 3.</p>
+        </div>
+        <div class="project-item">
+            <h2>Project 4</h2>
+            <p>Description of project 4.</p>
+        </div>
+        <div class="project-item">
+            <h2>Project 5</h2>
+            <p>Description of project 5.</p>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact-container">
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type Message here" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <div class="title">
+                    <p>Follow me on:</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aryan.a.palaspagar" target="_blank"><i class="fa-brands fa-facebook fb-gradient"></i></a>
+                    <a href="https://www.instagram.com/ap_live_now" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-palaspagar-9a5985202" target="_blank"><i class="fa-brands fa-linkedin linkedin-gradient"></i></a>
+                    <a href="https://github.com/i-am-ap" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/ap_live_now" target="_blank"><i class="fa-brands fa-instagram insta-gradient"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DevAryan. All rights reserved.</p>
+        <p>Designed by Aryan Palaspagar</p>
+    </footer>
+
+
+
+    
+</body>
+</html>
