@@ -160,3 +160,23 @@ const pic = document.getElementById("pic");
     pic.style.setProperty("--bg", `none`);
     pic.style.setProperty("--shadow", `none`);
   });
+
+
+
+
+const bar = document.getElementById("bar");
+const nav = document.getElementById("link");
+const close = document.getElementById("close");
+
+if (bar){
+    bar.addEventListener("click", () => {
+        nav.classList.add("active");
+    });
+}
+
+if(close){
+    close.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+}
+

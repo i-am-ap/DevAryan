@@ -56,16 +56,15 @@ body::-webkit-scrollbar{
 #header nav ul{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     align-items: center;
     top: 50%;
     flex-wrap: wrap;
     margin: 0 50px;
-    height: 40px;
-    
+    /* background-color: #0077b5; */
     font-family: "Poppins", sans-serif;
 
 }
+
 
 #header nav ul h3{
     /* background: linear-gradient(45deg, #267146, #08d475,#9ff5b8); */
@@ -94,6 +93,8 @@ body::-webkit-scrollbar{
     background-position: 0% 50%;
   }
 }
+
+
 
 #link a{
     position: relative;
@@ -159,15 +160,22 @@ body::-webkit-scrollbar{
 }
 
 #header nav ul div i{
-    color: rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
     font-size: 25px;
+}
+
+#close {
     display: none;
+    font-size: 25px;
+    color: rgb(4, 4, 4);
 }
 
 #main{
     display: flex;
     flex-wrap: wrap;
     margin: 40px;
+    margin-top: 60px;
+    /* background-color: royalblue; */
 }
 
 #main #title{
@@ -204,6 +212,7 @@ body::-webkit-scrollbar{
 #main #pic{
     width: 50%;
     text-align: center;
+    /* background-color: #00ff9d; */
     align-content: center;
 }
 
@@ -482,6 +491,8 @@ body::-webkit-scrollbar{
     border-style: solid;
     border-width: 1px;
     border-color: #484948;
+    text-align: center;
+    align-content: center;
 }
 
 #projects .project-container .project-item:hover{
@@ -722,4 +733,278 @@ footer{
     font-size: 16px;
     margin: 2px 0;
     margin-left: 25px;
+}
+
+
+@media (max-width: 800px) {
+
+    #header{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    #link{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 200px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        z-index: 1000;
+        transition: 0.3s;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+
+    }
+
+    #mobile i{
+        color: #12dc81;
+        font-size: 30px;
+        padding-left: 20px;
+        margin-right: 50px;
+    }
+
+    #link.active{
+        right: 0;
+    }
+
+    #close{
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #ffffff;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1100;
+
+    }
+
+    #main{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    #main #title{
+        width: 100%;
+        text-align: center;
+        height: 40vh;
+        margin-top: 30px;
+    }
+
+    #main #title h1{
+        font-size: 6vh;
+        margin-left: 20px;
+    }
+
+    #main #title p{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    #main #pic{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #main #pic img{
+        width: 350px;
+        border-radius: 90% 60% 50% 100%;
+        /* border-radius: 30% 50% 50% 70%; */
+        border-color: #10903d;
+        border-style: solid;
+        border-width: 3px;
+        margin-top: 0px;
+    }
+
+    #main #title .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    #main #title button{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #about .about-content{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    #about .about-content .about-container{
+        width: 80%;
+    }
+
+    #about .about-content .about-image{
+        display: none;
+    }
+
+
+    #projects .project-container{
+        width: 80%;
+    }
+
+    #projects .project-container .project-item{
+        width: 100%
+    }
+
+    #contact{
+        margin-bottom: 50px;
+    }
+
+    #contact .contact-container{
+        width: 60%;
+        height: 55vh;
+    }
+
+    #contact .contact-info .title p{
+        font-size: 25px;
+        color: #b9bab9;
+        margin-bottom: 10px;
+    }
+
+    #contact .contact-info .social-icons i{
+        font-size: 35px;
+    } 
+}
+
+
+@media (max-width: 500px) {
+
+    #header{
+        margin-top: 0;
+    }
+
+    #header nav ul{
+        margin: 0 10px;
+    }
+
+    #link{
+        width: 60%;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+    }
+
+
+    #mobile i{
+        color: #12dc81;
+        font-size: 25px;
+        padding-left: 20px;
+        margin-right: 50px;
+    }
+
+
+    #link.active{
+        right: 0;
+    }
+
+    #main #title #title-heading{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    #main #title p{
+        font-size: 14px;
+    }
+
+    #main #title .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #main #title .buttons #resume{
+        margin-left: 0;
+    }
+
+    #main #pic img{
+        width: 200px;
+        margin-top: 80px; ;
+    }
+
+    #about h1{
+        font-size: 30px;
+    }
+
+    #about .about-text h2{
+        font-size: 20px;
+    }
+
+    #about .about-text p{
+        font-size: 14px;
+    }
+
+    #about .about-content{
+        width: 90%;
+    }
+
+    #about .about-content .about-container{
+        width: 90%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    #skills h1{
+        font-size: 30px;
+    }
+
+    #skills .skill #cards h2{
+        font-size: 20px;
+    }
+
+    #skills .skill #cards{
+        width: 95%;
+    }
+
+    #projects h1{
+        font-size: 30px;
+    }
+
+    #projects .project-container .project-item{
+        width: 100%;
+    }
+
+    #contact h1{
+        font-size: 30px;
+    }
+
+    #contact .contact-container{
+        width: 80%;
+        height: 65vh;
+        margin-top: 10px;
+    }
+
+    #contact .contact-info .title p{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    #contact .contact-info .social-icons i{
+        font-size: 25px;
+    }
+
 }
