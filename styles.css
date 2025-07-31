@@ -65,6 +65,10 @@ body::-webkit-scrollbar{
 
 }
 
+#mobile{
+    display: none;
+}
+
 
 #header nav ul h3{
     /* background: linear-gradient(45deg, #267146, #08d475,#9ff5b8); */
