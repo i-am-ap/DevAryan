@@ -48,8 +48,7 @@ Welcome to my **personal portfolio website**, built to showcase my skills, proje
 │   ├── img/
 │   └── video/
 └── README.md
-
-
+```
 
 ## ✨ Future Plans
 
