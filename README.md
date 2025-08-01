@@ -31,6 +31,10 @@ Welcome to my **personal portfolio website**, built to showcase my skills, proje
 
 ## 📸 Preview
 
+<img width="1918" height="907" alt="image" src="https://github.com/user-attachments/assets/4e325669-3818-4766-8fb5-fcdf02cc8abd" />
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/f7d415ba-5f73-4e13-9129-55769eec4f19" />
+
+
 
 
 ---
