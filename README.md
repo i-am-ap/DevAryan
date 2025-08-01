@@ -3,7 +3,7 @@
 Welcome to my **personal portfolio website**, built to showcase my skills, projects, and personality as a developer. It's sleek, fully responsive, and powered with animations for an interactive experience.
 
 ## 🌐 Live Demo
-🔗 [View Portfolio Website]((https://devaryan-alpha.vercel.app/))
+🔗 https://devaryan-alpha.vercel.app
 
 ---
 
