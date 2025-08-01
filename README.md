@@ -38,21 +38,18 @@ Welcome to my **personal portfolio website**, built to showcase my skills, proje
 
 
 
----
-
-## 📁 Folder Structure
-
+```bash
 📁 DevAryan/
-├──  index.html
-├──  styles.css
-├──  script.js
-├──  assets/
-│   ├──  files/
-│   ├──  img/
-│   └──  video/
-└──  README.md
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+│   ├── files/
+│   ├── img/
+│   └── video/
+└── README.md
 
----
+
 
 ## ✨ Future Plans
 
