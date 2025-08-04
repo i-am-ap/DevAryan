@@ -178,12 +178,10 @@ body::-webkit-scrollbar{
     flex-wrap: wrap;
     margin: 40px;
     margin-top: 60px;
-    /* background-color: royalblue; */
 }
 
 #main #title{
     width: 50%;
-    /* background-color: rgb(20, 31, 27); */
     height: 80vh;
     align-content: center;
 }
@@ -250,7 +248,7 @@ body::-webkit-scrollbar{
 }
 
 #main #title #title-heading {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -349,12 +347,13 @@ body::-webkit-scrollbar{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(31, 31, 31); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 30px;
     margin-bottom: 30px;
     backdrop-filter: none;
     justify-content: center;
+    backdrop-filter: blur(5px);
 }
 
 #skills .skill #cards{
@@ -663,6 +662,13 @@ footer{
     bottom: 0;
     font-size: 12px;
     width: 100%;
+}
+
+footer span{
+    background: linear-gradient(45deg, #05a34a, #08d475,#2f9d4e, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-style: italic;
 }
 
 #about{
