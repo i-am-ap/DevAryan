@@ -75,6 +75,7 @@ body::-webkit-scrollbar{
     -webkit-background-clip: text;
 }
 
+
 #header #animated-gradient-text {
   font-size: 2rem;
   font-weight: bold;
@@ -347,13 +348,13 @@ body::-webkit-scrollbar{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    /* background-color: rgb(31, 31, 31); */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(31, 31, 31);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     gap: 30px;
     margin-bottom: 30px;
     backdrop-filter: none;
     justify-content: center;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
 }
 
 #skills .skill #cards{
@@ -492,34 +493,15 @@ body::-webkit-scrollbar{
     justify-content: center;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(31, 31, 31);
-    height: 75vh;
+    background-color: rgb(31,31,31);
     border-radius: 10px;
     width: 80%;
+    gap: 40px;
+    overflow: hidden;
 }
 
-#projects .project-container .project-item{
-    width: 20%;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #484948;
-    text-align: center;
-    align-content: center;
-}
 
-#projects .project-container .project-item:hover{
-    border-style: solid;
-    border-color: #21976c;
-    border-width: 2px;
-    transition: 0.3s ease;
-    box-shadow: -2px -4px 20px 3px rgba(8, 238, 85, 0.2);
-}
+
 
 #contact{
     display: flex;
@@ -696,11 +678,11 @@ footer span{
 }
 
 #about .about-content{
-    width: 85%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(31,31,31);
     border-radius: 10px;
