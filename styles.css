@@ -526,7 +526,7 @@ body::-webkit-scrollbar{
     margin-bottom: 30px;
     padding: 20px;
     background-color: rgb(31, 31, 31);
-    height: 72vh;
+    /* height: 100vh; */
     color: #ffffff;
     border-radius: 10px;
     width: 30%;
@@ -885,7 +885,6 @@ footer span{
 
     #contact .contact-container{
         width: 60%;
-        height: 53vh;
         gap: 25px;
     }
 
@@ -1121,7 +1120,6 @@ footer span{
 
     #contact .contact-container{
         width: 70%;
-        height: 72vh;
     }
 
     #contact .contact-info .title p{
@@ -1228,7 +1226,6 @@ footer span{
 
     #about .about-content{
         width: 95%;
-        height: 85vh;
     }
 
     #about .about-content .about-container{
@@ -1289,7 +1286,6 @@ footer span{
 
     #contact .contact-container{
         width: 80%;
-        height: 65vh;
         margin-top: 10px;
     }
 
