@@ -70,13 +70,16 @@ body::-webkit-scrollbar{
 
 
 #header nav ul h3{
-    /* background: linear-gradient(45deg, #267146, #08d475,#9ff5b8); */
+    background: linear-gradient(45deg, #000000, #039c69,#000000);
+    /* background-image: url("assets/img/bg.jpg"); */
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    color: grey;
+    font-size:2rem
 }
 
 
-#header #animated-gradient-text {
+/* #header #animated-gradient-text {
   font-size: 2rem;
   font-weight: bold;
   background: linear-gradient(45deg, #00ff9d, #093bb8, #02cb4f);
@@ -84,7 +87,7 @@ body::-webkit-scrollbar{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 5s ease infinite;
-}
+} */
 
 @keyframes gradientMove {
   0% {
@@ -674,7 +677,15 @@ footer span{
 #about .about-text{
     width: 80%;
     text-align: center;
-    color: #ffffff;
+    color: #878686;
+}
+
+#about .about-text h2 span{
+    /* background: linear-gradient(45deg, #006c76, #2f91a2, rgb(209, 209, 65),#b4067d, rgb(255, 2, 2)); */
+    color: #e6e6e6;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 #about .about-content{
