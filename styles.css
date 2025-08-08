@@ -105,10 +105,9 @@ body::-webkit-scrollbar{
 
 #link a{
     position: relative;
-    color: #ffffff;
+    color: #6e6e6e;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
 }
 
 #link a:hover{
