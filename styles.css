@@ -43,9 +43,10 @@ body::-webkit-scrollbar{
 
 #header{
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     width: 100%;
+
 }
 
 #header nav{
@@ -70,7 +71,7 @@ body::-webkit-scrollbar{
 
 
 #header nav ul h3{
-    background: linear-gradient(45deg, #000000, #039c69,#000000);
+    background: linear-gradient(45deg, #04311f, #039c69,#013d27);
     /* background-image: url("assets/img/bg.jpg"); */
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -105,13 +106,14 @@ body::-webkit-scrollbar{
 
 #link a{
     position: relative;
-    color: #6e6e6e;
+    color: #a4a4a4;
     text-decoration: none;
     font-size: 16px;
 }
 
 #link a:hover{
-    color: #01cd4f;
+    /* color: #01cd4f; */
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -350,7 +352,8 @@ body::-webkit-scrollbar{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(31, 31, 31); */
+    background-color: #090909;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     gap: 30px;
     margin-bottom: 30px;
@@ -375,7 +378,7 @@ body::-webkit-scrollbar{
 }
 
 #skills .skill #cards:hover{
-    box-shadow: 0 4px 8px rgba(44, 202, 39, 0.2);
+    /* box-shadow: 0 4px 8px rgba(44, 202, 39, 0.2); */
     border-style: solid;
     border-width: 2px;
     border-color: #08d475;
@@ -495,7 +498,8 @@ body::-webkit-scrollbar{
     justify-content: center;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(31,31,31);
+    /* background-color: rgb(31,31,31); */
+    background-color: #090909;
     border-radius: 10px;
     width: 80%;
     gap: 40px;
@@ -527,7 +531,8 @@ body::-webkit-scrollbar{
     justify-content: center;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(31, 31, 31); */
+    background-color: #090909;
     /* height: 100vh; */
     color: #ffffff;
     border-radius: 10px;
@@ -694,7 +699,8 @@ footer span{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(31,31,31);
+    /* background-color: rgb(31,31,31); */
+    background-color: #090909;
     border-radius: 10px;
 }
 
@@ -750,6 +756,86 @@ footer span{
     margin: 2px 0;
     margin-left: 25px;
 }
+
+#education{
+    width: 100%;
+    background-image: url("./img/ban.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#education h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(38, 193, 105);
+}
+
+#education .edu-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#education .edu-txt p{
+    color: #ffffff;
+}
+
+
+#education .edu-container{
+    display: flex;
+    color: #938d8d;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+#education .edu-container .edu-card{
+    border-style: solid;
+    border-color: #049a5e;
+    border-width: 1px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 25%;
+    margin-bottom: 3vh;
+}
+
+#education .edu-container .edu-card:hover{
+    cursor: pointer;
+    border-width: 2px;
+    border-color: #08d475;
+    box-shadow: -2px -4px 20px 3px rgba(8, 238, 85, 0.2);
+}
+
+#education .edu-container .edu-card h3{
+    font-size: 20px;
+    text-align: center;
+    color: #039c69;
+    padding: 10px 0;
+}
+
+#education .edu-container .edu-card p{
+    font-size: 16px;
+    padding: 5px;
+}
+
+#education .edu-container .edu-card .year{
+    color: #05bc95;
+}
+
+#education .edu-container .edu-card .span-uni,
+#education .edu-container .edu-card .span-place{
+    color: #d6d8d7;
+}
+
+#education .edu-container .edu-card .marks{
+    color: rgb(11, 165, 127);
+}
+
 
 @media (max-width: 1030px){
     #header{
@@ -1261,7 +1347,7 @@ footer span{
     }
 
     #skills .skill_txt p{
-        font-size: 18px;
+        font-size: 15px;
         padding:0 20px;
     }
 
@@ -1283,7 +1369,7 @@ footer span{
 
     #projects .prj_txt p{
         padding: 0 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #projects .project-container .project-item{
@@ -1336,6 +1422,37 @@ footer span{
 
     #contact .contact-container .contact-info .social-icons i{
         font-size: 25px;
+    }
+
+    #education{
+        background-image: none;
+    }
+
+    #education h1{
+        font-size: 30px
+    }
+
+    #education .edu-txt p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    #education .edu-container{
+        background-color: #090909;
+        width: 80%;
+        border-radius: 10px;
+        margin: auto;
+        gap: 10px;
+    }
+
+    #education .edu-container .edu-card{
+        width: 80%;
+        backdrop-filter: none;
+        margin-bottom: 3vh;
+    }
+
+    #education .edu-container .edu-card:first-child{
+        margin-top: 20px;
     }
 
 }
