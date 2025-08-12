@@ -43,10 +43,11 @@ body::-webkit-scrollbar{
 
 #header{
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
     width: 100%;
-
+    z-index: 9999;
+    background-color: #000000;
 }
 
 #header nav{
@@ -624,7 +625,7 @@ body::-webkit-scrollbar{
 }
 
 #contact .contact-container form{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -702,7 +703,7 @@ body::-webkit-scrollbar{
 }
 
 .fa-brands.fa-x-twitter{
-    color: #000000;
+    color: #c8c7c7;
 }
 
 .fa-brands.fa-linkedin{
@@ -712,7 +713,7 @@ body::-webkit-scrollbar{
 }
 
 .fa-brands.fa-github{
-    color: #333333;
+    color: #c8c7c7;
 }
 
 .insta-gradient{
@@ -1477,12 +1478,18 @@ footer span{
         width: 100%;
     }
 
+    #projects .project-container #rest-card{
+        display: none;
+    }
+
+
+
     #contact h1{
         font-size: 30px;
     }
 
     #contact .contact-container{
-        width: 80%;
+        width: 90%;
         margin-top: 10px;
     }
 
@@ -1519,11 +1526,14 @@ footer span{
     #contact .contact-container .contact-info .social-icons{
         width: 100%;
         margin: 0;
+
     }
 
     #contact .contact-container .contact-info .social-icons i{
         font-size: 25px;
     }
+
+    
 
     #education{
         background-image: none;
