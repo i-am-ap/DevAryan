@@ -1427,6 +1427,10 @@ footer span{
         font-size: 18px;
     }
 
+    #about .about-text h2 span{
+        font-size: 18px;
+    }
+
     #about .about-text p{
         font-size: 12px;
     }
