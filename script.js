@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (resumeBtn) {
     resumeBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      window.open('assets/files/Resume_Aryan.pdf', '_blank');
+      window.open('assets/files/Resume_Full_stack_AP.pdf', '_blank');
     });
   } else {
     console.error("Resume button not found in DOM.");
