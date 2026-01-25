@@ -58,5 +58,5 @@ Welcome to my **personal portfolio website**, built to showcase my skills, proje
 
 ---
 
-> Designed & Built with 💚 by Aryan Palaspagar
+> Designed & Built with ❤️ by Aryan Palaspagar
 
